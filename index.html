@@ -16,34 +16,122 @@
 <body>
     <div class="container">
         <header>
-            <img id="JackTsai" class="rounded-circle my-2 ml-3" src="./images/Jack_Tsai.jpg">
-            <div id="headerRight" class="my-2 ml-5">
-                <h1>蔡侑倫</h1>
-                <h5>國立臺中科技大學 - 資訊管理研究所</h5>
-                <hr align="left" class="header_hr">
-                <p>我對於前端技術有著濃厚的興趣，同時也不排斥學習任何相關的新技術。<br>
-                    在學習程式的路途中，雖是自學居多，卻也受過他人不少的幫助，<br>
-                    因此期望在未來，我也能夠成長到擁有足以替他人解惑的技術能力。
-                </p>
-                <hr align="left" class="header_hr">
-                <h5>Miaoli, TW</h5>
-                <h5>qaz6579555@gmail.com</h5>
-                <a href="https://github.com/YoLunTsai" target="_blank"><img class="icon" src="./images/github.png"></a>
-                <a href="https://www.instagram.com/lun_9527/" target="_blank"><img class="icon" src="./images/instagram.png"></a>
-                <a href="https://www.facebook.com/yoluntsai" target="_blank"><img class="icon" src="./images/facebook.png"></a>
+            <div class="row">
+                <div class="col-md-4">
+                    <img id="JackTsai" class="rounded-circle my-2 ml-auto" src="./images/Jack_Tsai.jpg">
+                </div>
+                <div class="col-md-8">
+                    <div id="headerRight" class="my-2 mx-2">
+                        <h1>蔡侑倫</h1>
+                        <h5>國立臺中科技大學 - 資訊管理研究所</h5>
+                        <hr align="left" class="header_hr">
+                        <p>對於前端技術有著濃厚的興趣，同時也熱衷於學習任何相關的新技術。<br>
+                            堅信著唯有透過持續不間斷地學習，才能使自己日趨茁壯。
+                        </p>
+                        <hr align="left" class="header_hr">
+                        <h5><img class="icon2" src="./images/location.png"> Miaoli, TW</h5>
+                        <h5><a href="mailto:qaz6579555@gmail.com" style="text-decoration: none; color: white;"><img
+                                    class="icon2" src="./images/gmail.png"> qaz6579555@gmail.com</a></h5>
+                        <a href="https://github.com/YoLunTsai" target="_blank"><img class="icon"
+                                src="./images/github.png"></a>
+                        <a href="https://www.instagram.com/lun_9527/" target="_blank"><img class="icon"
+                                src="./images/instagram.png"></a>
+                        <a href="https://www.facebook.com/yoluntsai" target="_blank"><img class="icon"
+                                src="./images/facebook.png"></a>
+                    </div>
+                </div>
             </div>
         </header>
-        <nav>
-            <!-- <ul>
-                <li>個人簡歷</li>
-                <li>出版書籍</li>
-                <li>作品展示</li>
-                <li>技能分析</li>
-            </ul> -->
+        <nav> <!--RWD漢堡條待製作-->
+            <ul id="navbar">
+                <li><a href="">個人簡歷</a></li>
+                <li><a href="">出版書籍</a></li>
+                <li><a href="">作品展示</a></li>
+                <li><a href="">技能分析</a></li>
+            </ul>
         </nav>
-        <main>
-
+        <main class="p-4">
+            <h2 class="main_tag">個人簡歷</h2>
+            <div class="main_container mb-3">
+                <h3 id="motto">今天的你，要比昨天的你更進步。</h3>
+                <p class="content_text">這句是就讀研究所期間，我的教授姜琇森老師時常說的話，因此也成為我人生的座右銘。<br>我堅信著<span
+                        class="personal_tag">唯有透過持續不間斷地學習，才能使自己日趨茁壯</span>。</p>
+                <p style="margin: 0; font-size: 1.75rem;"><span class="personal_tag">細心</span
+                        class="personal_tag">、<span class="personal_tag">負責</span>、<span
+                        class="personal_tag">積極</span>是我的人格特質。</p>
+                <p style="margin-bottom: 0;" class="content_text">我對於<span
+                        class="personal_tag">前端技術</span>有著濃厚的興趣，同時也<span class="personal_tag">熱衷於學習任何相關的新技術</span>。<br>
+                    學習程式的路途中，雖是自學居多，卻也受過他人不少的幫助，<br>
+                    因此期望在未來，我的技術能力也能夠成長到足以替他人解惑。</p>
+            </div>
+            <h2 class="main_tag">出版書籍</h2>
+            <div class="main_container mb-3">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4 py-2">
+                        <a href="https://www.books.com.tw/products/0010814238" target="_blank"><img
+                                src="./images/book.jpg" id="book_img"></a>
+                    </div>
+                    <div class="col-md-12 col-lg-8 py-2">
+                        <p id="book_title">秒懂行動網頁設計</p>
+                        <p style="color: #EF476F; font-weight: bold; font-size: 21px;">Sublime+VS
+                            Code+Bootstrap4+CSS3+HTML5+Cordova專案實作</p>
+                        <p class="content_text">我於研究所期間與教授及同學共同出版的書籍，由於當時Bootstrap版本及語法有大幅度的修改，因此成為了出版此書最大的動力。<br>
+                            經歷撰寫此書的過程後，我也在<span class="personal_tag">HTML5</span>、<span
+                                class="personal_tag">CSS3</span>、<span class="personal_tag">Bootstrap4</span>、<span
+                                class="personal_tag">RWD</span>上<span
+                                class="personal_tag">奠定了更為紮實的基礎</span>。<br>然而最重要的是讓我深刻地體會到，<span
+                                class="personal_tag">只要願意付出努力，必定能有所收穫</span>。</p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="main_tag">作品展示</h2>
+            <div class="main_container mb-3">
+                <div class="row px-3">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%;">
+                            <img src="./images/幸福in居.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">研究所專題 - 幸福IN居</h5>
+                                <p class="card-text">透過分析政府提供的空氣、水質、紫外線、商圈位置等之OpenData，來取得各地區的各項環境綜合評估，提供使用者作為房屋環境好壞的評估依據。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%;">
+                            <img src="./images/幸福in居.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">研究所專題 - 幸福IN居</h5>
+                                <p class="card-text">透過結合政府open data</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%;">
+                            <img src="./images/幸福in居.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">研究所專題 - 幸福IN居</h5>
+                                <p class="card-text">透過結合政府open data</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%;">
+                            <img src="./images/幸福in居.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">研究所專題 - 幸福IN居</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="main_tag">技能分析</h2>
+            <div class="main_container mb-3"></div>
         </main>
+        <footer class="text-center py-2">
+            Hosted on GitHub Pages.<br>
+            Developer : Yo-Lun Tsai | Designer : Yo-Lun Tsai
+        </footer>
     </div>
 
     <!-- Optional JavaScript -->
