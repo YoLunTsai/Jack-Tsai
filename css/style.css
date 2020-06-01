@@ -117,7 +117,7 @@ main {
 
 #motto {
     font-weight: bold;
-    color: #EF476F;
+    color: #FC4A1A;
 }
 
 .content_text {
@@ -126,7 +126,7 @@ main {
 
 .personal_tag {
     font-weight: bold;
-    color: #EF476F;
+    color: #FC4A1A;
 }
 
 #book_img {
@@ -140,20 +140,24 @@ main {
 #book_title {
     font-size: 1.75rem;
     font-weight: bold;
-    color: #EF476F;
+    color: #FC4A1A;
     margin-bottom: 0;
 }
 
 .card {
-    color: white;
-    border: 1px solid white;
+    border: none;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
+.card-title {
+    font-size: 1.5rem;
+    color: #FC4A1A;
+}
+
 .card-body {
     border-radius: 0px 0px 10px 10px;
-    background-color: rgb(240, 136, 108);
+    background-color: rgb(250, 248, 248);
 }
 
 .card-img-top {
