@@ -12,7 +12,8 @@ body {
 }
 
 header {
-    background-color: rgb(68, 224, 222);
+    background-color: #4ABDAC;
+
 }
 
 #JackTsai {
@@ -45,6 +46,7 @@ h5 {
     height: 35px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    margin-right: 5px;
 }
 
 .icon2 {
@@ -53,8 +55,13 @@ h5 {
     border-radius: 5px;
 }
 
+
 nav {
-    background-color: #A8CEDD;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    background-color: #F7B733;
     height: 50px;
 }
 
@@ -81,22 +88,21 @@ nav {
 
 }
 
-#navbar li:hover {
-    background-color: #5B85AA;
-    border-radius: 8px;
+.hide {
+    display: none;
 }
 
-
 main {
-    background-color: #F1FFFE;
+    background-color: #EFEFEF;
     color: #17345B;
+    z-index: 0;
 }
 
 .main_tag {
     display: inline-block;
     margin-bottom: 0;
     padding: 10px;
-    background-color: #5B85AA;
+    background-color: #FC4A1A;
     color: white;
     border-radius: 8px 8px 0 0;
 }
@@ -104,7 +110,7 @@ main {
 .main_container {
     margin-top: 0;
     background-color: white;
-    border: 2px solid #5B85AA;
+    border: 2px solid #FC4A1A;
     border-radius: 0 10px 10px 10px;
     padding: 15px;
 }
@@ -141,21 +147,22 @@ main {
 .card {
     color: white;
     border: 1px solid white;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.card-body{
+.card-body {
     border-radius: 0px 0px 10px 10px;
-    background-color: #5B85AA;
+    background-color: rgb(240, 136, 108);
 }
 
 .card-img-top {
-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 
 footer {
-    background-color: #47D8D6;
+    background-color: #4ABDAC;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
