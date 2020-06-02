@@ -2,11 +2,15 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
+}
+
+html {
+    font-size: 18px;
 }
 
 body {
     font-family: Microsoft JhengHei, sans-serif;
-    font-size: 20px;
     margin: 0;
     padding: 0;
 }
@@ -28,12 +32,7 @@ header {
 #headerRight {
     color: white;
     font-weight: bold;
-}
-
-h1,
-h2,
-h5 {
-    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .header_hr {
@@ -55,7 +54,6 @@ h5 {
     border-radius: 5px;
 }
 
-
 nav {
     position: sticky;
     position: -webkit-sticky;
@@ -72,9 +70,9 @@ nav {
     justify-content: space-between;
     padding: 0;
     list-style: none;
-    font-size: 1.6rem;
     text-align: center;
     font-weight: bold;
+    font-size: 1.6rem;
     color: white;
 }
 
@@ -103,7 +101,7 @@ main {
 .ml10 {
     position: relative;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.6rem;
     text-align: center;
 }
 
@@ -128,6 +126,8 @@ main {
     background-color: #FC4A1A;
     color: white;
     border-radius: 20px 20px 0 0;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 .main_container {
@@ -138,18 +138,25 @@ main {
     padding: 15px;
 }
 
-#motto {
-    font-weight: bold;
-    color: #FC4A1A;
+#personal {
+    padding: 50px 0 50px 0;
+    font-size: 1rem;
 }
 
-.content_text {
-    font-size: 17px;
+#motto {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #FC4A1A;
+    margin-bottom: 0;
 }
 
 .personal_tag {
     font-weight: bold;
     color: #FC4A1A;
+}
+
+#book #project {
+    font-size: 1rem;
 }
 
 #book_img {
@@ -160,13 +167,6 @@ main {
     border-radius: 20px;
 }
 
-#book_title {
-    font-size: 1.75rem;
-    font-weight: bold;
-    color: #FC4A1A;
-    margin-bottom: 0;
-}
-
 .card {
     border: none;
     margin-top: 15px;
@@ -175,8 +175,10 @@ main {
 }
 
 .card-title {
-    font-size: 1.5rem;
     color: #FC4A1A;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .card-body {
@@ -188,10 +190,89 @@ main {
     border-radius: 20px 20px 0px 0px;
 }
 
+#skill {
+    font-size: 1rem;
+    padding: 50px 0px 50px 0px;
+}
 
 footer {
     background-color: #4ABDAC;
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 0 0 40px 40px;
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+
+    #JackTsai {
+        width: 80%;
+    }
+
+    .ml10 {
+        font-size: 1.4rem;
+    }
+
+    #book_img {
+        width: 25%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+
+    .icon2 {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    #JackTsai {
+        width: 40%;
+    }
+
+    .ml10 {
+        font-size: 1.4rem;
+    }
+
+    #book_img {
+        width: 40%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+    }
+
+    .icon {
+        width: 15px;
+        height: 15px;
+        border-radius: 3px;
+        margin-right: 1px;
+    }
+
+    .icon2 {
+        width: 15px;
+        height: 15px;
+    }
+
+    .main_tag {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card-body {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .card-img-top {
+        border-radius: 10px 10px 0px 0px;
+    }
 }
