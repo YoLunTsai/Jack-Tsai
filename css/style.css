@@ -174,7 +174,7 @@ main {
 }
 
 .card-title {
-    color: #FC4A1A;
+    color: #F7B733;
     font-weight: bold;
     text-align: center;
     font-size: 1.2rem;
@@ -187,6 +187,27 @@ main {
 
 .card-img-top {
     border-radius: 20px 20px 0px 0px;
+}
+
+.title_span {
+    font-size: 1rem;
+}
+
+.content_span {
+    font-weight: bold;
+    color: #FC4A1A;
+}
+
+.project_link {
+    font-weight: bold;
+    color: #F7B733;
+    float: right;
+}
+
+.project_link:hover {
+    font-weight: bold;
+    color: #FC4A1A;
+    float: right;
 }
 
 #skill {
