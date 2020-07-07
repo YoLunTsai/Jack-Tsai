@@ -12,10 +12,10 @@ function show(item) {
     var hello = document.getElementById("hello");
     hello.style.display = "none";
     show.classList.toggle("hide");
-    show.scrollIntoView(true);
+    show.scrollIntoView(true); //錨點
 }
 
-// 文字動畫效果
+//首頁文字動畫效果
 var textWrapper = document.querySelector('.ml10 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 anime.timeline({

@@ -78,6 +78,7 @@ nav {
 #navbar li {
     width: 80%;
     line-height: 50px;
+    cursor: pointer;
 }
 
 #navbar li a {
@@ -96,7 +97,7 @@ main {
     z-index: 0;
 }
 
-/* 文字動畫效果 */
+/* 首頁文字動畫效果 */
 .ml10 {
     position: relative;
     font-weight: 900;
@@ -115,8 +116,6 @@ main {
     transform-origin: 0 0;
     color: #FC4A1A;
 }
-
-/* 文字動畫效果 */
 
 .main_tag {
     display: inline-block;
@@ -174,7 +173,8 @@ main {
 }
 
 .card-title {
-    color: #F7B733;
+    /* color: #F7B733; */
+    color: #FC4A1A;
     font-weight: bold;
     text-align: center;
     font-size: 1.2rem;
@@ -183,6 +183,7 @@ main {
 .card-body {
     border-radius: 0px 0px 20px 20px;
     background-color: rgb(250, 248, 248);
+    background-color: rgb(245, 243, 243);
 }
 
 .card-img-top {
@@ -202,17 +203,29 @@ main {
     font-weight: bold;
     color: #F7B733;
     float: right;
+    cursor: pointer;
 }
 
 .project_link:hover {
-    font-weight: bold;
     color: #FC4A1A;
-    float: right;
 }
 
 #skill {
-    font-size: 1rem;
+    font-size: 0.85rem;
+    font-weight: bold;
     padding: 50px 0px 50px 0px;
+}
+
+.skill_title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FC4A1A;
+    text-align: center;
+}
+
+hr {
+    margin-top: 0.6rem;
+    margin-bottom: 0.4rem;
 }
 
 footer {
