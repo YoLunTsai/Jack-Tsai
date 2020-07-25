@@ -134,6 +134,7 @@ main {
     border: 2px solid #FC4A1A;
     border-radius: 0 20px 20px 20px;
     padding: 15px;
+    text-align: justify;
 }
 
 #personal {
@@ -165,33 +166,20 @@ main {
     border-radius: 20px;
 }
 
-.card {
-    border: none;
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-}
-
-.card-title {
-    /* color: #F7B733; */
-    color: #FC4A1A;
-    font-weight: bold;
+.project_title {
     text-align: center;
-    font-size: 1.2rem;
+    background-color: #52cab8;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 8px;
 }
 
-.card-body {
-    border-radius: 0px 0px 20px 20px;
-    background-color: rgb(250, 248, 248);
-    background-color: rgb(245, 243, 243);
-}
-
-.card-img-top {
-    border-radius: 20px 20px 0px 0px;
-}
-
-.title_span {
-    font-size: 1rem;
+.project_content {
+    padding: 10px 5px 0px 5px;
+    text-align: justify;
+    font-size: 0.9rem;
 }
 
 .content_span {
@@ -200,14 +188,35 @@ main {
 }
 
 .project_link {
-    font-weight: bold;
-    color: #F7B733;
+    background-color: #FC4A1A;
+    border-radius: 5px;
     float: right;
-    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    margin: 8px 8px 15px 8px;
+    padding: 5px;
+    cursor: pointer
 }
 
 .project_link:hover {
-    color: #FC4A1A;
+    background-color: #ec471a;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.project_link a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.project_img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 #skill {
@@ -216,10 +225,20 @@ main {
 }
 
 .skill_title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
-    color: #FC4A1A;
     text-align: center;
+    background-color: #52cab8;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.skill_ul {
+    padding-left: 25px;
+    padding-right: 10px;
+    text-align: justify;
 }
 
 hr {
@@ -263,6 +282,10 @@ footer {
         width: 20px;
         height: 20px;
     }
+
+    .project_content {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -302,14 +325,6 @@ footer {
 
     .main_tag {
         border-radius: 10px 10px 0 0;
-    }
-
-    .card-body {
-        border-radius: 0px 0px 10px 10px;
-    }
-
-    .card-img-top {
-        border-radius: 10px 10px 0px 0px;
     }
 
     header {
